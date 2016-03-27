@@ -1,0 +1,98 @@
+html {
+    min-width: 1080px;
+}
+#header {
+    height: 64px;
+    padding: 12px;
+    padding-left: 24px;
+    font-size: 250%;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    border-bottom: 1px solid #111;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+ul#nav li:hover {
+    border-bottom: solid 3px #ccc;
+    cursor: pointer;
+}
+
+ul#nav li {
+    display: inline;
+    margin: 25px;;
+}
+
+ul#nav {
+    font-size: 145%;
+    text-align: center;
+    margin-left: -35px;
+}
+
+#nav-container {
+    background-color: rgba(48, 48, 48, 0.6);
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 369px;
+}
+
+.selected {
+    border-bottom: solid 3px #ccc;
+}
+
+#splash {
+    background-image: url("./images/sdasdd.jpg");
+    height: 400px;
+    background-position: 0 -400;
+    background-size: 100% auto;
+    border-bottom: 1px solid #111;
+}
+
+.project-container{ 
+    margin-top: 36px;
+    margin-bottom: 36px;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+.project {
+    font-weight: thin;
+    display: inline-block;
+    width: 350px;
+}
+.project-title {
+    font-size: 125%;
+    margin-bottom: 6px;
+    border-bottom: solid 3px #cecece;
+}
+
+.project-title:hover {
+    transition: border-color 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.orange-border:hover {
+    border-bottom: solid 3px #ff8d2d;
+    color: #ff8d2d;
+}
+
+.blue-border:hover {
+    border-bottom: solid 3px #32d1cf;
+    color: #32d1cf;
+}
+
+.green-border:hover {
+    border-bottom: solid 3px #55ff60;
+    color: #55ff60;
+}
+
+.project-desc {
+    font-size: 100%:
+}
